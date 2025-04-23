@@ -2,11 +2,10 @@
   "name": "moovea-clean",
   "version": "1.0.0",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "postinstall": "npm rebuild esbuild"
-}
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "postinstall": "npm rebuild esbuild"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.3",
