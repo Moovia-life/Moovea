@@ -1,0 +1,40 @@
+/* === ANIMATION SLIDE-UP === */
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 1s ease-out forwards;
+}
+
+.animate-delay-200 {
+  animation-delay: 0.2s;
+}
+
+
+/* === ANIMATION FADE-GLOW POUR NOUVEAU BADGE === */
+@keyframes fadeGlow {
+  0% {
+    opacity: 0.4;
+    filter: brightness(1);
+  }
+  50% {
+    opacity: 1;
+    filter: brightness(1.6);
+  }
+  100% {
+    opacity: 0.4;
+    filter: brightness(1);
+  }
+}
+
+.badge-glow {
+  animation: fadeGlow 2s ease-in-out infinite;
+}
