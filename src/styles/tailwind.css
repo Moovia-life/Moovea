@@ -1,5 +1,5 @@
+@import './moovea-theme.css'; /* ✅ Pense à l'importer */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import './moovea-theme.css'; /* ✅ Pense à l'importer */
