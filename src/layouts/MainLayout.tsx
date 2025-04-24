@@ -44,6 +44,7 @@ export default function MainLayout() {
             </>
           ) : (
             <>
+              <Link to="/creer-ou-rejoindre">Créer / Rejoindre</Link>
               <Link to="/creervoyage">Créer un voyage</Link>
               <Link to="/voyages">Explorer</Link>
               <Link to="/mesvoyages">Mes voyages</Link>

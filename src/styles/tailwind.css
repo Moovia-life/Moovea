@@ -1,5 +1,23 @@
-@import './moovea-theme.css'; /* ✅ Pense à l'importer */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-moovea {
+    @apply bg-accent hover:bg-accent-dark text-white px-4 py-2 rounded-full shadow transition-all;
+  }
+
+  .btn-danger {
+    @apply bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-full shadow transition-all;
+  }
+
+  .input-moovea {
+    @apply w-full border border-moovea-light px-3 py-2 rounded bg-white text-moovea-dark placeholder-moovea-light;
+  }
+
+  .title-moovea {
+    @apply text-3xl font-bold text-accent;
+  }
+}
+
+@import './animations.css';
